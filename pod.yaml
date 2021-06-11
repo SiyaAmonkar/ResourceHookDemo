@@ -24,7 +24,7 @@ spec:
           mv ./argo-linux-amd64 /usr/local/bin/argo
           argo list -n argo
           cd WorkflowDemo
-          # Delete existing templates
+          # Delete existing templates.....
           argo template delete retry-strategy-template -n argo
           argo template delete notifications -n argo
           argo delete workflow-calling-retryscript-notify -n argo

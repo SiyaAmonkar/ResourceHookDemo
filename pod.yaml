@@ -28,4 +28,4 @@ spec:
           argo template delete retry-strategy-template -n argo
           argo template delete notifications -n argo
           argo delete workflow-calling-retryscript-notify -n argo
-  restartPolicy: Always
+  restartPolicy: Never
